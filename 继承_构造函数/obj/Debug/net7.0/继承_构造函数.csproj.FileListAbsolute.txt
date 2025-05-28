@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/bin/Debug/net7.0/继承_构造函数
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/bin/Debug/net7.0/继承_构造函数.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/bin/Debug/net7.0/继承_构造函数.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/bin/Debug/net7.0/继承_构造函数.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/bin/Debug/net7.0/继承_构造函数.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/refint/继承_构造函数.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/继承_构造函数.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_构造函数/obj/Debug/net7.0/ref/继承_构造函数.dll

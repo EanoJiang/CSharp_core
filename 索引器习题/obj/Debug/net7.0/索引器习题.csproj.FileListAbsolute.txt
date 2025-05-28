@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/bin/Debug/net7.0/索引器习题
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/bin/Debug/net7.0/索引器习题.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/bin/Debug/net7.0/索引器习题.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/bin/Debug/net7.0/索引器习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/bin/Debug/net7.0/索引器习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/refint/索引器习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/索引器习题.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/索引器习题/obj/Debug/net7.0/ref/索引器习题.dll

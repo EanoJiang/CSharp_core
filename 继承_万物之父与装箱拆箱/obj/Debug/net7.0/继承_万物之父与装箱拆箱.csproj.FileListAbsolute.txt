@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/bin/Debug/net7.0/继承_万物之父与装箱拆箱
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/bin/Debug/net7.0/继承_万物之父与装箱拆箱.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/bin/Debug/net7.0/继承_万物之父与装箱拆箱.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/bin/Debug/net7.0/继承_万物之父与装箱拆箱.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/bin/Debug/net7.0/继承_万物之父与装箱拆箱.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/refint/继承_万物之父与装箱拆箱.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/继承_万物之父与装箱拆箱.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_万物之父与装箱拆箱/obj/Debug/net7.0/ref/继承_万物之父与装箱拆箱.dll

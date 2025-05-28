@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/bin/Debug/net7.0/继承_综合习题
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/bin/Debug/net7.0/继承_综合习题.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/bin/Debug/net7.0/继承_综合习题.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/bin/Debug/net7.0/继承_综合习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/bin/Debug/net7.0/继承_综合习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/refint/继承_综合习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/继承_综合习题.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承_综合习题/obj/Debug/net7.0/ref/继承_综合习题.dll

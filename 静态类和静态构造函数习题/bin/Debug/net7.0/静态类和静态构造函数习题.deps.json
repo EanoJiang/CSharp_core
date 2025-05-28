@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "静态类和静态构造函数习题/1.0.0": {
+        "runtime": {
+          "静态类和静态构造函数习题.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "静态类和静态构造函数习题/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

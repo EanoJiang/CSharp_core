@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/bin/Debug/net7.0/拓展方法
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/bin/Debug/net7.0/拓展方法.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/bin/Debug/net7.0/拓展方法.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/bin/Debug/net7.0/拓展方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/bin/Debug/net7.0/拓展方法.pdb
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/refint/拓展方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.pdb
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/拓展方法.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/拓展方法/obj/Debug/net7.0/ref/拓展方法.dll

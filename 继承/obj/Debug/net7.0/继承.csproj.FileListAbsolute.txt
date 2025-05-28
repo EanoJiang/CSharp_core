@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/继承/bin/Debug/net7.0/继承
+/Users/User/Desktop/CSharp/CSharp_core/继承/bin/Debug/net7.0/继承.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/继承/bin/Debug/net7.0/继承.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/继承/bin/Debug/net7.0/继承.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承/bin/Debug/net7.0/继承.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/refint/继承.dll
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.pdb
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/继承.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/继承/obj/Debug/net7.0/ref/继承.dll

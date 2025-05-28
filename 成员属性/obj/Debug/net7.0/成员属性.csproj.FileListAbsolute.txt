@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/bin/Debug/net7.0/成员属性
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/bin/Debug/net7.0/成员属性.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/bin/Debug/net7.0/成员属性.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/bin/Debug/net7.0/成员属性.dll
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/bin/Debug/net7.0/成员属性.pdb
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.dll
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/refint/成员属性.dll
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.pdb
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/成员属性.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/成员属性/obj/Debug/net7.0/ref/成员属性.dll

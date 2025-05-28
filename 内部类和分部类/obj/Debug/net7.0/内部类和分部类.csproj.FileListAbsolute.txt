@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/bin/Debug/net7.0/内部类和分部类
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/bin/Debug/net7.0/内部类和分部类.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/bin/Debug/net7.0/内部类和分部类.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/bin/Debug/net7.0/内部类和分部类.dll
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/bin/Debug/net7.0/内部类和分部类.pdb
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.dll
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/refint/内部类和分部类.dll
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.pdb
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/内部类和分部类.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/内部类和分部类/obj/Debug/net7.0/ref/内部类和分部类.dll

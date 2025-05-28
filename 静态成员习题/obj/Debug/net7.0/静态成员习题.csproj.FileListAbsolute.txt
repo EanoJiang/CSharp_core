@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/bin/Debug/net7.0/静态成员习题
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/bin/Debug/net7.0/静态成员习题.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/bin/Debug/net7.0/静态成员习题.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/bin/Debug/net7.0/静态成员习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/bin/Debug/net7.0/静态成员习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/refint/静态成员习题.dll
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.pdb
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/静态成员习题.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/静态成员习题/obj/Debug/net7.0/ref/静态成员习题.dll

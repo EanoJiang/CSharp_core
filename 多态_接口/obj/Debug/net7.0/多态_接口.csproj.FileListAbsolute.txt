@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/bin/Debug/net7.0/多态_接口
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/bin/Debug/net7.0/多态_接口.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/bin/Debug/net7.0/多态_接口.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/bin/Debug/net7.0/多态_接口.dll
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/bin/Debug/net7.0/多态_接口.pdb
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.dll
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/refint/多态_接口.dll
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.pdb
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/多态_接口.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/多态_接口/obj/Debug/net7.0/ref/多态_接口.dll
