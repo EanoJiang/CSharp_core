@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/String/bin/Debug/net7.0/String
+/Users/User/Desktop/CSharp/CSharp_core/String/bin/Debug/net7.0/String.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/String/bin/Debug/net7.0/String.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/String/bin/Debug/net7.0/String.dll
+/Users/User/Desktop/CSharp/CSharp_core/String/bin/Debug/net7.0/String.pdb
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.dll
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/refint/String.dll
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.pdb
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/String.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/String/obj/Debug/net7.0/ref/String.dll

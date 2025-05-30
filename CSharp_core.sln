@@ -77,6 +77,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态_接口", "多态_接
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态_接口习题", "多态_接口习题\多态_接口习题.csproj", "{462FB5C5-0309-4057-803F-1B56928260F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态_密封方法", "多态_密封方法\多态_密封方法.csproj", "{305D3937-F026-47BA-A634-D9DD1D0FFA82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命名空间", "命名空间\命名空间.csproj", "{6E830379-6A2E-4A13-A8B4-22D1EB6B609F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "万物之父中的方法", "万物之父中的方法\万物之父中的方法.csproj", "{96C26AB7-647B-400D-83A4-74142FC1240C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "万物之父中的方法习题", "万物之父中的方法习题\万物之父中的方法习题.csproj", "{135CB417-F35A-40F8-8B83-DAC656D71D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{416FABA6-916A-4612-8154-4D78C1EC2ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string习题", "string习题\string习题.csproj", "{9EAA4346-1141-44B7-8ADE-2A2DA166D1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +243,30 @@ Global
 		{462FB5C5-0309-4057-803F-1B56928260F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462FB5C5-0309-4057-803F-1B56928260F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462FB5C5-0309-4057-803F-1B56928260F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305D3937-F026-47BA-A634-D9DD1D0FFA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305D3937-F026-47BA-A634-D9DD1D0FFA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305D3937-F026-47BA-A634-D9DD1D0FFA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305D3937-F026-47BA-A634-D9DD1D0FFA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E830379-6A2E-4A13-A8B4-22D1EB6B609F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E830379-6A2E-4A13-A8B4-22D1EB6B609F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E830379-6A2E-4A13-A8B4-22D1EB6B609F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E830379-6A2E-4A13-A8B4-22D1EB6B609F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C26AB7-647B-400D-83A4-74142FC1240C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C26AB7-647B-400D-83A4-74142FC1240C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C26AB7-647B-400D-83A4-74142FC1240C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C26AB7-647B-400D-83A4-74142FC1240C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135CB417-F35A-40F8-8B83-DAC656D71D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135CB417-F35A-40F8-8B83-DAC656D71D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135CB417-F35A-40F8-8B83-DAC656D71D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135CB417-F35A-40F8-8B83-DAC656D71D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416FABA6-916A-4612-8154-4D78C1EC2ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416FABA6-916A-4612-8154-4D78C1EC2ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416FABA6-916A-4612-8154-4D78C1EC2ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416FABA6-916A-4612-8154-4D78C1EC2ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAA4346-1141-44B7-8ADE-2A2DA166D1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAA4346-1141-44B7-8ADE-2A2DA166D1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAA4346-1141-44B7-8ADE-2A2DA166D1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAA4346-1141-44B7-8ADE-2A2DA166D1EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/bin/Debug/net7.0/万物之父中的方法
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/bin/Debug/net7.0/万物之父中的方法.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/bin/Debug/net7.0/万物之父中的方法.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/bin/Debug/net7.0/万物之父中的方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/bin/Debug/net7.0/万物之父中的方法.pdb
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/refint/万物之父中的方法.dll
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.pdb
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/万物之父中的方法.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/万物之父中的方法/obj/Debug/net7.0/ref/万物之父中的方法.dll

@@ -3258,10 +3258,681 @@ class Player : IAtk, ISuperAtk
 ![1748450451796](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250529004211638-1168007505.png)
 
 ```csharp
+namespace 多态_接口习题;
+
+//1.
+interface IRegister
+{
+    void Register();
+}
+class Person : IRegister
+{
+    public void Register()
+    {
+        Console.WriteLine("在派出所登记");
+    }
+}
+class Car : IRegister
+{
+    public void Register()
+    {
+        Console.WriteLine("在车管所登记");
+    }
+}
+class House : IRegister
+{
+    public void Register()
+    {
+        Console.WriteLine("在房管局登记");
+    }
+}
+
+//2.
+abstract class Animal
+{
+    public abstract void Walk();
+}
+interface IFly
+{
+    void Fly();
+}
+interface ISwim
+{
+    void Swim();
+}
+class helicopter : IFly
+{
+    public void Fly()
+    {
+        Console.WriteLine("直升机开始飞");
+    }
+}
+class sparrow : Animal, IFly
+{
+    public override void Walk()
+    {
+    }
+    public void Fly()
+    {
+    }
+}
+class Ostrich : Animal
+{
+    public override void Walk()
+    {
+    }
+}
+class Penguin : Animal, ISwim
+{
+    public void Swim()
+    {
+    }
+    public override void Walk()
+    {
+    }
+}
+class Parrot : Animal, IFly
+{
+    public void Fly()
+    {
+    }
+    public override void Walk()
+    {
+    }
+}
+class Swan : Animal, ISwim,IFly
+{
+    public void Swim()
+    {
+    }
+    public void Fly()
+    {
+    }
+    public override void Walk()
+    {
+    }
+}
+
+//3.
+interface IUSB
+{
+    void ReadData();
+}
+class Computer
+{
+    public IUSB usb1;
+}
+class StorageDevice : IUSB
+{
+    public string name;
+    public StorageDevice(string name)
+    {
+        this.name = name;
+    }
+    public void ReadData()
+    {
+        Console.WriteLine(name + "读取数据");
+    }
+}
+class Mp3 : IUSB
+{
+    public void ReadData()
+    {
+        Console.WriteLine("mp3读取数据");
+    }
+}
+
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        //1.
+        IRegister[] arr = new IRegister[] { new Person(), new Car(), new House() };
+        foreach (IRegister item in arr)
+        {
+            item.Register();
+        }
+
+        //3.
+        Computer cp1 = new Computer();
+        cp1.usb1 = new Mp3();
+        cp1.usb1.ReadData();
+        cp1.usb1 = new StorageDevice("硬盘");
+        cp1.usb1.ReadData();
+    }
+}
 
 ```
 
-
-
-
 ### 密封方法
+
+关键字：`consealed`
+
+子类对虚函数和抽象函数override的时候加上了关键字sealed，那么在这个子类的子类就不能再重写了。
+
+特点：
+
+* 密封方法可以让虚函数和抽象函数不能再次被子类重写
+* 和override一起出现
+
+```csharp
+abstract class Animal
+{
+    public string name;
+    public abstract void Atk();
+    public virtual void Fuck()
+    {
+        Console.WriteLine("fuck");
+    }
+}
+class Person : Animal
+{
+    public sealed override void Atk()
+    {
+    }
+    public sealed override void Fuck()
+    {
+        Console.WriteLine("fuck me");
+    }
+}
+// class Test : Person
+// {
+//     //后续子类就不能重写了
+//     public override void Atk()
+//     {
+//     }
+//     public override void Fuck()
+//     {
+//     }
+// }
+```
+
+## 命名空间
+
+作用：用来组织和复用代码
+
+> 命名空间：工具包，类：工具包里面的一个个工具(申明在命名空间中)
+
+### 使用
+
+命名空间可以同名，也就是分段写，也可以分文件写
+
+```csharp
+namespace MyGame
+{
+    class GameObject
+    {
+    }
+}
+namespace MyGame
+{
+    class Player : GameObject
+    {
+    }
+}
+```
+
+### 不同命名空间中互相使用：需要引用命名空间/指明出处
+
+1. using 命名空间名;
+
+```csharp
+using MyGame;
+
+namespace 命名空间
+{
+    class Program
+    {
+        static void Main()
+        {
+            //不同命名空间中相互使用，需要引用命名空间或指明出处
+            GameObject g = new GameObject();
+        }
+    }
+}
+
+```
+
+2. 命名空间名.类名
+
+```csharp
+            //不同命名空间中相互使用，需要引用命名空间或指明出处
+            MyGame.GameObject g = new MyGame.GameObject();
+```
+
+### 不同命名空间中允许有同名类
+
+```csharp
+namespace MyGame
+{
+    class GameObject
+    {
+    }
+}
+//不同命名空间允许有同名的类
+namespace MyGame2
+{
+    class GameObject
+    {
+    }
+}
+```
+
+如果要在另一个命名空间调用不同命名空间的同名类，只能必须指明出处
+
+```csharp
+            MyGame.GameObject g = new MyGame.GameObject();
+            MyGame2.GameObject g2 = new MyGame2.GameObject();
+```
+
+### 命名空间可以包裹命名空间
+
+也就是命名空间里细分命名空间
+
+```csharp
+namespace MyGame
+{
+    namespace UI
+    {
+
+    }
+    namespace Game
+    {
+    
+    }
+}
+```
+
+调用的时候一层层点就行，或者引用命名空间using MyGame.UI
+
+### 修饰类的访问修饰符
+
+public	默认公开
+
+internal	只能在该程序集里用
+
+abstract	抽象类
+
+sealed	密封类
+
+partial	分部类
+
+## 万物之父中的方法
+
+### object中的静态方法
+
+#### Equals()
+
+作用：判断两个对象是否相等，比较的是二者指向的内存地址是否一样
+
+最终判断权交给左侧对象的Equals方法
+
+```csharp
+        //Equals()
+        //比较的是二者指向的内存地址是否一样
+        //最终判断权交给左侧对象的Equals方法
+        //值类型
+        Console.WriteLine(Object.Equals(1, 1));
+        Console.WriteLine(1.Equals(1));
+        //引用类型
+        Test t1 = new Test();
+        Test t2 = new Test();
+        Console.WriteLine(Object.Equals(t1, t2));
+        Console.WriteLine(t1.Equals(t2));
+        t2 = t1;
+        Console.WriteLine(Object.Equals(t1, t2));
+        Console.WriteLine(t1.Equals(t2));
+```
+
+#### ReferenceEquals()
+
+作用：比较两个对象是否是相同的引用(内存地址)
+
+```csharp
+        //ReferenceEquals()
+        //比较两个对象是否是相同的引用(内存地址)
+        //值类型：返回值永远是flase
+        Console.WriteLine(Object.ReferenceEquals(1, 1));
+        //引用类型：
+        Test t3 = new Test();
+        Test t4 = new Test();
+        Console.WriteLine(Object.ReferenceEquals(t3, t4));
+        t4 = t3;
+        Console.WriteLine(Object.ReferenceEquals(t3, t4));
+```
+
+object可以省略，因为是万物之父，只要在类里，这个类肯定继承于Object，所以也包含这个方法
+
+### object中的成员方法
+
+#### 普通方法GetType()
+
+作用：获取对象运行时的类型Type，返回一个Type类型的对象
+
+通过Type结合后面的反射相关特性，可以做很多关于对象的操作
+
+```csharp
+        //普通方法Type()
+        Test t5 = new Test();
+        Type type = t5.GetType();
+```
+
+#### 普通方法MemberwiseClone()
+
+作用：获取对象的浅拷贝对象，返回一个新的对象。
+
+但是新对象(克隆体)的引用变量改了之后，老对象相应的引用变量也会改变
+
+```csharp
+class Test
+{
+    //值类型成员变量
+    public int i = 1;
+    //引用类型成员变量
+    public Test2 ttt = new Test2();
+    public Test Clone()
+    {
+        return MemberwiseClone() as Test;
+    }
+}
+class Test2
+{
+    public int i = 2;
+}
+```
+
+```csharp
+        //普通方法MemberwiseClone()
+        Test t_2 = t.Clone();
+        Console.WriteLine("克隆对象后");
+        Console.WriteLine("t.i = " + t.i);
+        Console.WriteLine("t.ttt.i = " + t.ttt.i);
+        Console.WriteLine("t_2.i = " + t_2.i);
+        Console.WriteLine("t_2.ttt.i = " + t_2.ttt.i);
+        Console.WriteLine("改变克隆对象的信息");
+        t_2.i = 99;
+        t_2.ttt.i = 100;
+        Console.WriteLine("t.i = " + t.i);
+        Console.WriteLine("t.ttt.i = " + t.ttt.i);
+        Console.WriteLine("t_2.i = " + t_2.i);
+        Console.WriteLine("t_2.ttt.i = " + t_2.ttt.i);
+```
+
+![1748530266350](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530101100567-1717636512.png)
+
+### object中的虚函数方法
+
+#### 虚函数Equals()
+
+默认实现还是比较二者是否为同一个引用，等同于ReferenceEquals()
+
+但是微软在所有值类型的基类System.ValueType中重写了Equals()，用来比较值相等
+
+**我们也可以对Equals()进行重写**
+
+#### 虚函数GetHashCode()
+
+作用：获取对象的哈希码
+
+可以重写
+
+#### 虚函数ToString()
+
+作用：返回当前对象的字符串
+
+可重写
+
+当调用打印方法，默认会使用ToString()
+
+> 习题
+
+![1748563698568](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530101101373-33714842.png)
+
+```csharp
+namespace 万物之父中的方法习题;
+
+//1.
+class Player
+{
+    private string name;
+    private int hp;
+    private int atk;
+    private int def;
+    private int miss;
+    public Player(string name, int hp, int atk, int def, int miss)
+    {
+        this.name = name;
+        this.hp = hp;
+        this.atk = atk;
+        this.def = def;
+        this.miss = miss;
+    }
+    public override string ToString()
+    {
+        return String.Format("姓名{0},血量{1},攻击{2},防御{3},闪避{4}", name, hp, atk, def, miss);
+    }
+}
+
+//2.
+class Monster
+{
+    public Monster m;
+    public string Name { get; set; }
+    public int Hp{  get; set; }
+    public int Atk{  get; set; }
+    public int Def{  get; set; }
+    public int SkillID{  get; set; }
+    public Monster(string name, int hp, int atk, int def, int skillID)
+    {
+        Name = name;
+        Hp = hp;
+        Atk = atk;
+        Def = def;
+        SkillID = skillID;
+        m = this;
+    }
+    public Monster Clone()
+    {
+        return MemberwiseClone() as Monster;
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        //1.
+        Player p = new Player("张三", 100, 10, 5, 5);
+        Console.WriteLine(p);
+
+        //2.
+        Monster A = new Monster("A", 100, 10, 5, 5);
+        Monster B = A.Clone();
+        B.Name = "B";
+        Console.WriteLine(A.Name);
+        //因为是值类型的，所以改克隆体不会改变原来的值
+        B.m.Name = "B";
+        Console.WriteLine(A.m.Name);
+        //引用类型的内容改变，改克隆体，原来的值也会改变
+    }
+}
+
+```
+
+## String
+
+### 获取字符串指定位置字符
+
+字符串本质是char的数组
+
+可以直接用索引器，或ToCharArray()转成数组后再索引
+
+```csharp
+        //字符串获取指定位置字符
+        string str = "hello world";
+        Console.WriteLine(str[0]);
+        //ToCharArray()：转成char数组
+        char[] chars = str.ToCharArray();
+        Console.WriteLine(chars[0]);
+```
+
+### 字符串拼接
+
+string.Format()
+
+```csharp
+        //字符串拼接
+        //  str = string.Format(str, "1");  //错误用法
+        str = string.Format("{0}111",str);  //必须用占位符的形式
+        Console.WriteLine(str);
+```
+
+### 正向查找字符位置
+
+IndexOf()
+
+```csharp
+        //正向查找字符位置
+        //找不到返回-1
+        int index = str.IndexOf("o");
+        Console.WriteLine(index);
+        //忽略大小写,StringComparison.OrdinalIgnoreCase
+        index = str.IndexOf("o",StringComparison.OrdinalIgnoreCase);
+        Console.WriteLine(index);
+```
+
+### 反向查找字符位置
+
+LastIndexOf()
+
+返回值：最后一次出现的起始索引位置
+
+> 这个索引值还是从前往后的
+>
+> 反向体现在返回值是最后一次出现的起始索引位置
+
+```csharp
+        //反向查找字符位置
+        //返回值 最后一次出现的起始索引位置
+        int lastIndex = str.LastIndexOf("o");
+        Console.WriteLine(lastIndex);
+        //找最后一次出现目标字符串的第一个字符的位置
+        lastIndex = str.LastIndexOf("d111");
+        Console.WriteLine(lastIndex);
+```
+
+### 移除指定位置后的字符
+
+Remove()
+
+```csharp
+        //移除指定位置后的字符(含指定位置一起移除)
+        string str1 = str.Remove(2);
+        Console.WriteLine(str1);
+        //移除[开始位置,开始位置+count]的字符
+        //第二个参数，count
+        str1 = str.Remove(2, 3);
+        Console.WriteLine(str1);
+```
+
+### 字符串替换
+
+Replace()
+
+```csharp
+        //字符串替换
+        str = str.Replace("hello", "FUCK");
+        Console.WriteLine(str);
+```
+
+### 大小写转换
+
+ToUpper()
+
+ToLower()
+
+```csharp
+        //大小写转换
+        str = str.ToUpper();
+        Console.WriteLine(str);
+        str = str.ToLower();
+        Console.WriteLine(str);
+```
+
+### 字符串截取
+
+Substring()
+
+```csharp
+        //字符串截取
+        //截取指定位置开始之后的字符串(含指定位置)
+        str1 = str.Substring(1);
+        Console.WriteLine(str1);
+        //截取[开始位置,开始位置+count]
+        str1 = str.Substring(1, 3);
+        Console.WriteLine(str1); 
+```
+
+### 字符串切割
+
+Split()
+
+```csharp
+        //字符串切割
+        str = "1_1 | 1_2 | 1_3 | 1_4 | 1_5";
+        string[] strs = str.Split(" | ");
+        for (int i = 0; i < strs.Length; i++)
+        {
+            //[1]：取切割符串后的字符串
+            strs[i] = strs[i].Split("_")[1];
+            Console.WriteLine(strs[i]);
+        }
+```
+
+> 习题
+
+![1748568223999](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530101102253-662457769.png)
+
+```csharp
+//1.
+//  SubString
+//  Replace
+
+//2.
+string str = "1|2|3|4|5|6|7";
+string[] strs = str.Split('|');
+str = "";
+for (int i = 0; i < strs.Length; i++)
+{
+    str += int.Parse(strs[i]) + 1;
+    if (i != strs.Length - 1) str += "|";
+}
+Console.WriteLine(str);
+
+//3.
+//别名
+
+//4.
+//3个堆空间
+//str = "123";
+//str2 = "321";
+//str2 += "123";
+//只要重新赋值string就会重新分配内存
+
+//5.
+string str2 = "hello";
+char[] str2s = str2.ToCharArray();
+for (int i = 0; i < str2.Length / 2; i++)
+{
+    str2s[i] = (char)(str2s[i] + str2s[str2.Length - 1 - i]);
+    str2s[str2.Length - 1 - i] = (char)(str2s[i] - str2s[str2.Length - 1 - i]);
+    str2s[i] = (char)(str2s[i] - str2s[str2.Length - 1 - i]);
+}
+foreach (char c in str2s) Console.Write(c);
+Console.WriteLine();
+
+```
+
+## StringBuilder
