@@ -1,0 +1,14 @@
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/bin/Debug/net7.0/StringBuilder
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/bin/Debug/net7.0/StringBuilder.deps.json
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/bin/Debug/net7.0/StringBuilder.runtimeconfig.json
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/bin/Debug/net7.0/StringBuilder.dll
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/bin/Debug/net7.0/StringBuilder.pdb
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.AssemblyInfoInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.AssemblyInfo.cs
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.csproj.CoreCompileInputs.cache
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.dll
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/refint/StringBuilder.dll
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.pdb
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/StringBuilder.genruntimeconfig.cache
+/Users/User/Desktop/CSharp/CSharp_core/StringBuilder/obj/Debug/net7.0/ref/StringBuilder.dll

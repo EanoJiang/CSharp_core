@@ -1,5 +1,11 @@
 # C#核心篇
 
+> Github仓库：[https://github.com/EanoJiang/CSharp_core](https://github.com/EanoJiang/CSharp_core)
+
+![1748613324370](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530215808701-272444150.png)
+
+![1748613299870](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530215809525-1146266723.png)
+
 ## 面向对象的概念
 
 封装(类)、继承，多态
@@ -3540,7 +3546,7 @@ namespace MyGame
     }
     namespace Game
     {
-    
+  
     }
 }
 ```
@@ -3936,3 +3942,190 @@ Console.WriteLine();
 ```
 
 ## StringBuilder
+
+一个用于处理字符串的公共类
+
+作用：修改字符串而不用每次都创建新的对象
+
+对于需要频繁修改和拼接的字符串可以使用它，用来提升性能，因为每次创建新的对象都会加快gc的到来
+
+使用前需要using 命名空间：`using System.Text;`
+
+### 申明
+
+```csharp
+using System.Text;
+
+//第二个参数：初始化容量，设定过大会浪费空间
+//在后续每次往里增加内容，会自动扩容
+StringBuilder str = new StringBuilder("123123",100);
+Console.WriteLine(str);
+Console.WriteLine(str.Capacity);
+```
+
+### 增删查改替换
+
+```csharp
+//增删查改替换
+
+//增
+//不能用+=，用Append()和AppendFormat()
+str.Append("111");
+Console.WriteLine(str);
+Console.WriteLine(str.Length);
+Console.WriteLine(str.Capacity);
+str.AppendFormat("{0}{1}", "222", "333");
+Console.WriteLine(str);
+Console.WriteLine(str.Length);
+Console.WriteLine(str.Capacity);
+
+//插入
+str.Insert(0, "FUCK");
+Console.WriteLine(str);
+
+//删
+//Remove(开始位置，count)
+str.Remove(0, 4);
+Console.WriteLine(str);
+
+//清空
+// str.Clear();
+// Console.WriteLine(str);
+
+//查
+//  索引器
+Console.WriteLine(str[1]);
+
+//改
+//  之前的string是只读不可改的，现在的StringBuilder是可改的
+str[1] = 'f';
+Console.WriteLine(str);
+
+//替换
+//  只替换第一个匹配项
+str.Replace("123", "FUCK");
+Console.WriteLine(str);
+
+//Equals()
+str.Clear();
+str.Append("111");
+if (str.Equals("111"))
+{
+    Console.WriteLine("相等");
+}
+```
+
+> 习题
+
+![1748609786046](https://img2023.cnblogs.com/blog/3614909/202505/3614909-20250530215810005-621816605.png)
+
+//1.
+
+string每次改动都会创建一个新的对象，也就更容易产生垃圾，更容易触发gc
+
+stringbuilder因为有初始容量的存在，只有达到初始容量上限才会扩容
+
+string更加灵活，内置方法更多：IndexOf()、LastIndexOf()、ToUpper()、ToLower()、Substring()、Split()
+
+stringbuilder适合需要频繁改动的字符串
+
+//2.
+
+> 就目前已学知识
+
+如何节约内存：少new对象、合理使用static
+
+如何尽可能的减少gc：合理使用string和stringbuilder
+
+## 结构体和类的区别(面试常考)
+
+1. 存储空间：结构体是值，在栈上；类是引用，在堆上
+2. 使用：结构体不具备继承和多态的特性，只有封装的思想，也不能使用protected保护成员变量
+
+### 详细对比：
+
+| 结构体                                                             | 类       |
+| ------------------------------------------------------------------ | -------- |
+| 值类型                                                             | 引用类型 |
+| 栈内存                                                             | 堆内存   |
+| 不能用protected                                                    | 可以     |
+| 结构体成员变量的申明不能设定初始值                                 | 可以     |
+| 结构体不能自己申明无参构造函数，因为自带                           | 可以     |
+| 结构体申明有参构造函数时，无参构造函数不会被顶掉                   | 会被顶掉 |
+| 结构体不能申明析构函数                                             | 可以     |
+| 结构体不能被继承                                                   | 可以     |
+| **结构体需要在构造函数中初始化所有成员变量**                 | 随意     |
+| 结构体不能被static修饰(不存在静态结构体)，但是结构体可以有静态成员 | 可以     |
+| 结构体不能在内部申明和自己一样的结构体变量                         | 可以     |
+
+对于最后一点：C# 的结构体是值类型，**不允许结构体中直接包含自身类型字段**
+
+**C / C++：允许使用指针实现自引用结构体**
+
+```csharp
+struct Node {
+    int value;
+    struct Node* next; // ✅ C / C++允许：使用指针实现自引用
+};
+```
+
+不能直接嵌套自身类型：
+
+```csharp
+struct Node {
+    int value;
+    struct Node next; // ❌ 错误：会导致无限大小的结构体
+};
+```
+
+### 结构体的特别之处
+
+结构体可以继承接口，但是结构体不能继承结构体和类
+
+### 如何选择：结构体or类？
+
+当需要继承和多态，只能用类(玩家、怪物)
+
+当对象是数据集合，优先考虑结构体(位置、坐标)
+
+从值和引用类型的赋值上的区别考虑：
+
+因为结构体是值类型，所以当对象经常需要被赋值传递，但是又不希望原对象被改变，就用结构体。(坐标、向量、旋转)
+
+## 抽象类和接口的区别(面试常考)
+
+抽象类：abstract，不能实例化，抽象函数只能在抽象类里面申明，是个纯虚函数，必须在子类中实现
+
+接口：interface，是行为的抽象，不能实例化，但是可以作为容器，不含成员变量，只有方法、属性、索引器、事件， 这些成员都不能实现，最好不要写访问修饰符，默认public，避免显示实现(接口名.方法名)
+
+### 相同点
+
+都可以被继承
+
+都不能直接实例化
+
+都可以包含方法等的申明
+
+其子类必须实现
+
+遵循里氏替换原则
+
+### 不同点
+
+| 抽象类                                                               | 接口                                                                  |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 可以有构造函数                                                       | 没有                                                                  |
+| 只能被单一继承<br />这是类的通性，只能继承一个父类和但是可以多个接口 | 可以被继承多个                                                        |
+| 有成员变量                                                           | 没有                                                                  |
+| 可以申明成员方法、虚函数、抽象函数、静态函数                         | 只能申明没有实现的函数                                                |
+| 可以使用访问修饰符                                                   | 最好不写，默认为public<br />(否则就要在子类中显示实现：接口名.方法名) |
+
+### 如何选择抽象类和接口
+
+抽象出来的对象，用抽象类
+
+一个规范行为，用接口
+
+不同对象的共有行为，用接口
+
+> OVER~
